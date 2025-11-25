@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    // Strict
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    // Non-strict
+    "exactOptionalPropertyTypes": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    // Linter
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "isolatedModules": true,
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "target": "es2022",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "pretty": true,
+    "preserveWatchOutput": true,
+    "jsx": "react",
+    "outDir": "dist"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cts",
+    "**/*.ctsx",
+    "**/*.mts",
+    "**/*.mtsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.cjs",
+    "**/*.cjsx",
+    "**/*.mjs",
+    "**/*.mjsx"
+  ],
+  "exclude": ["node_modules", "**/node_modules", "dist", "**/dist"]
+}
